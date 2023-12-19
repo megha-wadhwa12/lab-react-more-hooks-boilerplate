@@ -47,7 +47,7 @@ const ToDoApp = () => {
         })}
         <button onClick={()=>{
             input.current.focus()
-            // window.scrollTo(top:0,behaviour:)
+            // window.scrollTo(top:0,behaviour:"smooth")
         }}>GO BACK TO TOP</button>
     </div>
   )

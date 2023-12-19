@@ -6,6 +6,8 @@ const TodoItem = ({item: {data,isHidden} ,index,dispatch}) => {
     <div style={{
         backgroundColor: "purple",
         width: "90vw",
+        padding: "5px",
+        margin: "20px",
         filter: `${isHidden?"blur(2px)":"blur(0px)"}`
     }}>
         <h3>{isHidden ? "This Content is Hidden": data}</h3>

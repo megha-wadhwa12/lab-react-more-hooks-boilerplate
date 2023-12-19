@@ -1,5 +1,5 @@
 node_modules
-
+dist
 
 # Logs
 logs
@@ -25,3 +25,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+.vercel
